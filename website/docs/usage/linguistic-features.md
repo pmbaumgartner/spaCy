@@ -1990,6 +1990,7 @@ vector_data = {
     "dog": numpy.random.uniform(-1, 1, (300,)),
     "cat": numpy.random.uniform(-1, 1, (300,)),
     "orange": numpy.random.uniform(-1, 1, (300,))
+  # A CHANGE
 }
 vocab = Vocab()
 for word, vector in vector_data.items():
